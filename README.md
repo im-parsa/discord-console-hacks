@@ -11,7 +11,7 @@
 <br />
 
 
-<p>گرفتن برچسب سیستم دیسکورد</p>
+<p>گرفتن برچسب سیستم دیسکورد 📝</p>
 
 ```
 var findModule = (item) => Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}}, [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default[item]!==void 0).exports.default;
@@ -20,7 +20,7 @@ findModule('getCurrentUser').getCurrentUser().system = true;
 
 <hr />
 
-<p>عوض کردن نام برچسب</p>
+<p>عوض کردن نام برچسب 📝</p>
 
 ```
 var findModule = (item) => Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}}, [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default[item]!==void 0).exports.default;
@@ -29,7 +29,7 @@ findModule('Messages').Messages.SYSTEM_DM_TAG_SYSTEM = 'New_Tag_Name';
 
 <hr />
 
-<p>گرفتن تمام بدج ها</p>
+<p>گرفتن تمام بدج ها 🤖</p>
 
 ```
 Object.values(webpackJsonp.push([[],{[''] :(_,e,r)=>{e.cache=r.c}},
@@ -48,7 +48,7 @@ findModule('getCurrentUser').getCurrentUser().bot = true;
 
 <hr />
 
-<p>گرفتن توکن اکانت</p>
+<p>گرفتن توکن اکانت 📤</p>
 
 ```
    Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}},[['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getToken!==void 0).exports.default.getToken()
@@ -56,7 +56,7 @@ findModule('getCurrentUser').getCurrentUser().bot = true;
 
 <hr />
 
-<p>لاگین با توکن</p>
+<p>لاگین با توکن 📥</p>
 
 ```
    function login(token) {
@@ -72,7 +72,7 @@ location.reload();
 
 <hr />
 
-<p>اسکرین شات فیک</p>
+<p>اسکرین شات فیک 📸</p>
 
 ```
    document.designMode = 'on'
@@ -80,7 +80,7 @@ location.reload();
 
 <hr />
 
-<p>وریفای کردن سرور</p>
+<p>وریفای کردن سرور ✅</p>
 
 ```
    Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}},[['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getGuilds!==void 0).exports.default.getGuild('SERVERID').features.add('VERIFIED')
@@ -89,11 +89,13 @@ location.reload();
 <hr />
 
 
-<p>پارتنر کردن سرور</p>
+<p>پارتنر کردن سرور 🤝</p>
 
 ```
    Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}},[['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getGuilds!==void 0).exports.default.getGuild('SERVERID').features.add('PARTNERED')
 ```
 
+<br />
+<br />
 
 ![DM me Discord](https://discord.c99.nl/widget/theme-1/488958506280550402.png)

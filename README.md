@@ -5,19 +5,17 @@
 
 شما این روش رو میتونین با اپلیکیشن و یا وب اپ دیسکورد انجام بدید و هیچ فرقی نداره
 
-روی کیبورد این کلید هارو میگیرید و یک صفحه سمت راست پنجره دیسکوردتون باز میشه و توش دنبال کلمه کنسول بگردید روش کلیک کنید و بعد هر کدوم از کدا های زیر رو که میخواید پیست کنید   
+روی کیبورد این کلید هارو میگیرید و یک صفحه سمت راست پنجره دیسکوردتون باز میشه و توش دنبال کلمه کنسول بگردید روش کلیک کنید و بعد هر کدوم از کدا های زیر رو که میخواید پیست کنید
 
-```
-git clone https://github.com/Paraffin-Team/Paraffin-Toolsbox.git
-cd Paraffin-Toolsboxl
-npm install
-```
+<br />
+<br />
+
 
 <p>گرفتن برچسب سیستم دیسکورد</p>
 
 ```
-    var findModule = (item) => Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}}, [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default[item]!==void 0).exports.default;
-    findModule('getCurrentUser').getCurrentUser().system = true;
+var findModule = (item) => Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}}, [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default[item]!==void 0).exports.default;
+findModule('getCurrentUser').getCurrentUser().system = true;
 ```
 
 <hr />
@@ -25,8 +23,8 @@ npm install
 <p>عوض کردن نام برچسب</p>
 
 ```
-    var findModule = (item) => Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}}, [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default[item]!==void 0).exports.default;
-    findModule('Messages').Messages.SYSTEM_DM_TAG_SYSTEM = 'New_Tag_Name';
+var findModule = (item) => Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}}, [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default[item]!==void 0).exports.default;
+findModule('Messages').Messages.SYSTEM_DM_TAG_SYSTEM = 'New_Tag_Name';
 ```
 
 <hr />
@@ -34,9 +32,9 @@ npm install
 <p>گرفتن تمام بدج ها</p>
 
 ```
-    Object.values(webpackJsonp.push([[],{[''] :(_,e,r)=>{e.cache=r.c}},
-    [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getCurrentUser!==void
-    0).exports.default.getCurrentUser().flags=-33
+Object.values(webpackJsonp.push([[],{[''] :(_,e,r)=>{e.cache=r.c}},
+[['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getCurrentUser!==void
+0).exports.default.getCurrentUser().flags=-33
 ```
 
 <hr />
@@ -44,8 +42,8 @@ npm install
 <p>گرفتن برچسب ربات دیسکورد</p>
 
 ```
-    var findModule = (item) => Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}}, [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default[item]!==void 0).exports.default;
-    findModule('getCurrentUser').getCurrentUser().bot = true;
+var findModule = (item) => Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}}, [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default[item]!==void 0).exports.default;
+findModule('getCurrentUser').getCurrentUser().bot = true;
 ```
 
 <hr />
@@ -62,13 +60,13 @@ npm install
 
 ```
    function login(token) {
-    setInterval(() => {
-    document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
-    }, 50);
-    setTimeout(() => {
-    location.reload();
-    }, 200);
-    }
+setInterval(() => {
+document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
+}, 50);
+setTimeout(() => {
+location.reload();
+}, 200);
+}
   login("TOKEN_HERE")
 ```
 

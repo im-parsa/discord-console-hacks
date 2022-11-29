@@ -51,7 +51,22 @@ findModule('getCurrentUser').getCurrentUser().bot = true;
 <p>گرفتن توکن اکانت 📤</p>
 
 ```
-   Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}},[['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getToken!==void 0).exports.default.getToken()
+window.webpackChunkdiscord_app.push([
+  [Math.random()],
+  {},
+  req => {
+    for (const m of Object.keys(req.c)
+      .map(x => req.c[x].exports)
+      .filter(x => x)) {
+      if (m.default && m.default.getToken !== undefined) {
+        return (m.default.getToken());
+      }
+      if (m.getToken !== undefined) {
+        return (m.getToken());
+      }
+    }
+  },
+]);
 ```
 
 <hr />

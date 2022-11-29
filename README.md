@@ -74,15 +74,15 @@ window.webpackChunkdiscord_app.push([
 <p>لاگین با توکن 📥</p>
 
 ```
-   function login(token) {
-setInterval(() => {
-document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
-}, 50);
-setTimeout(() => {
-location.reload();
-}, 200);
+function login(token) {
+  setInterval(() => {
+    document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
+  }, 50);
+  setTimeout(() => {
+    location.reload();
+  }, 200);
 }
-  login("TOKEN_HERE")
+login("TOKEN_HERE")
 ```
 
 <hr />
